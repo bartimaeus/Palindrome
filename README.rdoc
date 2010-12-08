@@ -18,7 +18,7 @@ numbers, words, and sentences, but for now it meets my proof of concept.
 
     require_relative 'palindrome'
     
-    Hint: If you are testing this in irb, you will need to use the full path to palindrome.rb:
+  Hint: If you are testing this in irb, you will need to use the full path to palindrome.rb:
     
     require '/Users/ericshelley/Development/Palindrome/palindrome'
 
@@ -26,7 +26,7 @@ numbers, words, and sentences, but for now it meets my proof of concept.
 
     palindromes = Palindrome.discover("bobiqweababcbaasifuhwe")
 
-    The result of this assignment is an array of palindromes:
+  The result of this assignment is an array of palindromes:
    
     => ["bob", "aba", "bcb", "abcba", "bcb"]
 
