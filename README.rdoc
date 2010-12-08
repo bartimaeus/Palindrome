@@ -18,17 +18,17 @@ numbers, words, and sentences, but for now it meets my proof of concept.
 
     require_relative 'palindrome'
     
-    Hint: If you are testing this in irb, you will need to use the full path to palindrome.rb:
+Hint: If you are testing this in irb, you will need to use the full path to palindrome.rb:
     
     require '/Users/ericshelley/Development/Palindrome/palindrome'
 
 2. Currently, Plaindrome only has two methods that both take String objects:
 
-   palindromes = Palindrome.discover("bobiqweababcbaasifuhwe")
+    palindromes = Palindrome.discover("bobiqweababcbaasifuhwe")
 
-   The result of this assignment is an array of palindromes:
+The result of this assignment is an array of palindromes:
    
-   => ["bob", "aba", "bcb", "abcba", "bcb"]
+    => ["bob", "aba", "bcb", "abcba", "bcb"]
 
 
 == License
