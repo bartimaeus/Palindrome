@@ -10,11 +10,13 @@ Palindrome may in the future become a more complete library for parsing
 numbers, words, and sentences, but for now it meets my proof of concept.
 
 
-== Getting Started
+== Installing
 
-1. Install Palindrome by copying palindrome.rb into your project
+Install Palindrome by copying palindrome.rb into your project
 
-2. Use Palindrome by including palindrome.rb in whatever library or file will use it:
+== Using Palindrome
+
+Use Palindrome by including palindrome.rb in whatever library or file will use it:
 
     require_relative 'palindrome'
     
@@ -22,7 +24,9 @@ Hint: If you are testing this in irb, you will need to use the full path to pali
     
     require '/Users/ericshelley/Development/Palindrome/palindrome'
 
-3. Currently, Plaindrome only has two methods that both take String objects:
+== Example
+
+Currently, Plaindrome only has two methods that both take String objects:
 
     palindromes = Palindrome.discover("bobiqweababcbaasifuhwe")
 
