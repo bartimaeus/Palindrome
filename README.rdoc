@@ -1,0 +1,36 @@
+== Welcome to Palindrome
+
+Palindrome was created as a proof of concept. The other day I was asked how
+to parse a string for palindromes. The problem bothered me. At the time I
+couldn't think of the best way to solve it. The next day at lunch I sat down
+and wrote what you see below to satisfy my curiosity. Currently, Palindrome will
+find nested and overlapping palindromes within the string.
+
+Palindrome may in the future become a more complete library for parsing 
+numbers, words, and sentences, but for now it meets my proof of concept.
+
+
+== Getting Started
+
+1. Install Palindrome by copying palindrome.rb into your project
+
+2. Use Palindrome by including palindrome.rb in whatever library or file will use it:
+
+    require_relative 'palindrome'
+    
+    Hint: If you are testing this in irb, you will need to use the full path to palindrome.rb:
+    
+    require '/Users/ericshelley/Development/Palindrome/palindrome'
+
+2. Currently, Plaindrome only has two methods that both take String objects:
+
+   palindromes = Palindrome.discover("bobiqweababcbaasifuhwe")
+
+   The result of this assignment is an array of palindromes:
+   
+   => ["bob", "aba", "bcb", "abcba", "bcb"]
+
+
+== License
+
+Palindrome is released under the MIT license.
